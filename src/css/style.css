@@ -1,0 +1,17 @@
+.containerInput{
+    float: right;
+}
+.news{
+    background-color: white;
+}
+
+.titleH1{
+    font-family: Broadway, serif;
+    color: white;
+    font-size: 25px;
+}
+
+.mainFin{
+    color:white;
+    float: left;
+}

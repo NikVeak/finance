@@ -1,0 +1,26 @@
+.mainUl li
+{
+    display: inline-block;
+}
+
+.mainUl{
+    list-style-position: inside;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mainUl li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #363333;
+}
+
+li a:hover {
+    background-color: #111;
+}

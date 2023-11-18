@@ -1,0 +1,91 @@
+.ulTitle{
+    padding: 0;
+    margin: 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.ulTitle li{
+    display: inline-block;
+    width: 500px;
+    height:450px;
+    padding: 20px 20px 40px;
+    position: relative;
+    vertical-align: top;
+    margin: 10px;
+    font-family: 'helvetica', san-serif, serif;
+    min-height: 25vh;
+    background: #2f3338;
+    border: 1px solid #252727;
+    text-align: justify;
+
+}
+
+.ulTitle li h3{
+    font-size: 20px;
+    color: #b7b7b7;
+    margin-bottom: 5px;
+}
+
+.ulTitle li h5{
+    color:white;
+}
+
+.ulTitle li p{
+    font-size: 13px;
+    line-height: 18px;
+    color: #b7b7b7;
+    margin-top: 5px;
+}
+
+.ulTitle li img{
+    width: 250px;
+    height: 150px;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    -ms-interpolation-mode: nearest-neighbor;  /* IE */
+    image-rendering: crisp-edges;
+    float: right;
+    margin: 3%;
+}
+
+.ulTitle li:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: #fff;
+    transform: skew(2deg, 2deg);
+}
+.ulTitle li:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.ulTitle li:nth-child(1):before {
+    background: #C9FFBF;
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+}
+.ulTitle li:nth-child(2):before {
+    background: #f2709c;
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+    background: linear-gradient(to right, #ff9472, #f2709c);
+}
+.ulTitle li:nth-child(3):before {
+    background: #c21500;
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+    background: linear-gradient(to right, #ffc500, #c21500);
+}
+.ulTitle li:nth-child(4):before {
+    background: #FC354C;
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+    background: linear-gradient(to right, #0ABFBC, #FC354C);
+}

@@ -1,0 +1,32 @@
+.ulStock{
+    padding: 0;
+    margin: 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.ulStock li{
+    display: inline-block;
+    width: 250px;
+    height:20px;
+    padding: 20px 20px 40px;
+    position: relative;
+    vertical-align: top;
+    margin: 10px;
+    font-family: 'helvetica', san-serif, serif;
+    min-height: 25vh;
+    background: #2f3338;
+    border: 1px solid #252727;
+    text-align: justify;
+
+}
+
+.ulStock li h3{
+    font-size: 20px;
+    color: #b7b7b7;
+    margin-bottom: 5px;
+}
+
+.ulStock li h5{
+    color:white;
+}
