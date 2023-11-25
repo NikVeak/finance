@@ -1,0 +1,21 @@
+.currency{
+    color: white;
+    width: 40%;
+    background-color: #363333;
+    border-radius: 5px;
+    padding:5px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.currency p{
+    font-size: 13px;
+    text-align: justify;
+    background-color: #111111;
+    padding: 3px;
+}
+
+.currency h3{
+    color: white;
+    background-color: #4c7ebb;
+}
