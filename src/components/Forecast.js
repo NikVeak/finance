@@ -9,9 +9,9 @@ const Forecast = () =>
   const [data, setData] = useState([]);
 
   useEffect(()=>{
-    const fetchData = ()=>{
+    const fetchData = async ()=>{
       let forecast = [];
-      const response_gold = axios.get('http://localhost:8000/forecast/gold').then(res=>{
+      const result = await axios.get('http://localhost:8000/forecast/gold').then(res=>{
         console.log(res);
       }).catch(err=>
       {
@@ -19,8 +19,7 @@ const Forecast = () =>
       });
       //const response_brent = axios.get('http://localhost:8000/forecast/brent');
       //const response_cuprum =  axios.get('http://localhost:8000/forecast/cuprum');
-      console.log(response_gold);
-      let des_ar = JSON.parse(response_gold)
+      let des_ar = JSON.parse(result)
       let lab = []
       let ds = []
       for (let i= 0; i < des_ar.length;i++){
